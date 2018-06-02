@@ -1,3 +1,3 @@
-class Question < ApplicationRecord::Base
-
+class Question < ApplicationRecord
+  validates :text, presence: true
 end
